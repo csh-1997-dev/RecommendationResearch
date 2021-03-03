@@ -9,7 +9,9 @@ print(critics['Toby'])
 euclidDist = sqrt(pow(4.5-4,2)+pow(1-2,2))
 print("euclidian distance between 'Toby' and 'LaSalle' is:   ", euclidDist)
 
-
+#Inversion of Euclid Dist
+invED = 1/(1+sqrt(pow(4.5-4,2)+pow(1-2,2)))
+print("inverse of euclidian distance between 'Toby' and 'LaSalle' is:   ", invED)
 
 
 
